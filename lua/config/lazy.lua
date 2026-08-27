@@ -18,4 +18,4 @@ local opts = {
   checker = { enabled = true },
 }
 
-require("lazy").setup("plugins", otps)
+require("lazy").setup("plugins", opts)

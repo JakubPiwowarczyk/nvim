@@ -10,3 +10,5 @@ vim.opt.smartindent = true
 vim.opt.cursorline = true
 
 vim.diagnostic.config({ virtual_text = true })
+
+vim.g.netrw_liststyle = 3
