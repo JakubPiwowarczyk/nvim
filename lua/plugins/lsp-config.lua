@@ -40,7 +40,6 @@ return {
       vim.keymap.set("n", "<leader>re", vim.lsp.buf.rename, {})
       vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
       vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
-
     end
   }
 }
