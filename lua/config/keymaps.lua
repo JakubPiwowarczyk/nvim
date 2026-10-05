@@ -3,6 +3,9 @@ vim.keymap.set("v", "\"", 'c"<C-r>""<Esc>', { noremap = false, silent = true, de
 vim.keymap.set("n", "<leader>q", '<cmd>q<CR>', { desc = "Quit" })
 vim.keymap.set("n", "<leader>w", '<cmd>w<CR>', { desc = "Write" })
 
+vim.keymap.set("n", "<S-k>", "<C-u>zz", { desc = "Scroll up and center" })
+vim.keymap.set("n", "<S-j>", "<C-d>zz", { desc = "Scroll down and center" })
+
 vim.keymap.set("n", "<leader>y", '"+y', { desc = "Yank to system clipboard" })
 vim.keymap.set("v", "<leader>y", '"+y', { desc = "Yank selection to system clipboard" })
 vim.keymap.set("n", "<leader>Y", '"+Y', { desc = "Yank line to system clipboard" })

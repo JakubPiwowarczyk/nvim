@@ -9,7 +9,7 @@ return {
     },
     lazy = false, -- neo-tree will lazily load itself
     config = function ()
-      vim.keymap.set("n", "<leader>E", "<cmd>Neotree<CR>", { desc = "Open neotree" })
+      vim.keymap.set("n", "<leader>e", "<cmd>Neotree<CR>", { desc = "Open neotree" })
     end
   }
 }
