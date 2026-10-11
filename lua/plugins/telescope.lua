@@ -19,5 +19,6 @@ return {
     vim.keymap.set('n', '<leader>fd', builtin.diagnostics, { desc = 'Telescope diagnostics' })
     vim.keymap.set('n', '<leader>fi', builtin.lsp_implementations, { desc = 'Telescope implementations' })
     vim.keymap.set('n', '<leader>fr', builtin.lsp_references, { desc = 'Telescope references' })
+    vim.keymap.set('n', '<leader>fs', builtin.lsp_document_symbols, { desc = 'Telescope document symbols' })
   end
 }
